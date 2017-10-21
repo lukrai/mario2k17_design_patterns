@@ -1,0 +1,10 @@
+C:\Users\HP\Desktop\Objektinis\Mario2k17\bin\Debug\netcoreapp2.0\Mario2k17.deps.json
+C:\Users\HP\Desktop\Objektinis\Mario2k17\bin\Debug\netcoreapp2.0\Mario2k17.runtimeconfig.json
+C:\Users\HP\Desktop\Objektinis\Mario2k17\bin\Debug\netcoreapp2.0\Mario2k17.runtimeconfig.dev.json
+C:\Users\HP\Desktop\Objektinis\Mario2k17\bin\Debug\netcoreapp2.0\Mario2k17.dll
+C:\Users\HP\Desktop\Objektinis\Mario2k17\bin\Debug\netcoreapp2.0\Mario2k17.pdb
+C:\Users\HP\Desktop\Objektinis\Mario2k17\obj\Debug\netcoreapp2.0\Mario2k17.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Objektinis\Mario2k17\obj\Debug\netcoreapp2.0\Mario2k17.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Objektinis\Mario2k17\obj\Debug\netcoreapp2.0\Mario2k17.AssemblyInfo.cs
+C:\Users\HP\Desktop\Objektinis\Mario2k17\obj\Debug\netcoreapp2.0\Mario2k17.dll
+C:\Users\HP\Desktop\Objektinis\Mario2k17\obj\Debug\netcoreapp2.0\Mario2k17.pdb
