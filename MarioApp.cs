@@ -32,7 +32,12 @@ namespace Mario2k17
             player.playerShoots();
             player.getPlayerAGun("Machine");
             player.playerShoots();
-
+            //Enemies and BossAdapter
+            enemy.setEnemyAttacker(new Turtle());
+            enemy.showEnemyAttacker();
+            enemy.setEnemyAttacker(new BossAdapter(new Boss()));
+            enemy.showEnemyAttacker();
+        
         }
     }
 }

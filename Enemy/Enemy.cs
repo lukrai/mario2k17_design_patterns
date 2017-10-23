@@ -12,7 +12,7 @@ namespace Mario2k17
         private int hitPoints;
         private EnemyDifficulty _enemyDifficulty;
 
-        public void show() { }
+        private IEnemyAttacker enemyAttacker = null;
 
         public Enemy(EnemyDifficulty difficulty)
         {
@@ -23,5 +23,18 @@ namespace Mario2k17
         {
             _enemyDifficulty.addDifficulty();
         }
+
+        public void setEnemyAttacker(IEnemyAttacker attacker)
+        {
+            enemyAttacker = attacker;
+        }
+
+        public void showEnemyAttacker()
+        {
+            enemyAttacker.Fire();
+            enemyAttacker.Move();
+        }
+
+
     }
 }
