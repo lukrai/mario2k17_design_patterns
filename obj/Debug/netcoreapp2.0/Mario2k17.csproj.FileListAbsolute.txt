@@ -8,3 +8,12 @@ C:\Users\HP\Desktop\Objektinis\Mario2k17\obj\Debug\netcoreapp2.0\Mario2k17.Assem
 C:\Users\HP\Desktop\Objektinis\Mario2k17\obj\Debug\netcoreapp2.0\Mario2k17.AssemblyInfo.cs
 C:\Users\HP\Desktop\Objektinis\Mario2k17\obj\Debug\netcoreapp2.0\Mario2k17.dll
 C:\Users\HP\Desktop\Objektinis\Mario2k17\obj\Debug\netcoreapp2.0\Mario2k17.pdb
+C:\Users\Ignas\Documents\mario2k17_design_patterns\bin\Debug\netcoreapp2.0\Mario2k17.deps.json
+C:\Users\Ignas\Documents\mario2k17_design_patterns\bin\Debug\netcoreapp2.0\Mario2k17.runtimeconfig.json
+C:\Users\Ignas\Documents\mario2k17_design_patterns\bin\Debug\netcoreapp2.0\Mario2k17.runtimeconfig.dev.json
+C:\Users\Ignas\Documents\mario2k17_design_patterns\bin\Debug\netcoreapp2.0\Mario2k17.dll
+C:\Users\Ignas\Documents\mario2k17_design_patterns\bin\Debug\netcoreapp2.0\Mario2k17.pdb
+C:\Users\Ignas\Documents\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.csprojResolveAssemblyReference.cache
+C:\Users\Ignas\Documents\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.AssemblyInfo.cs
+C:\Users\Ignas\Documents\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.dll
+C:\Users\Ignas\Documents\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.pdb

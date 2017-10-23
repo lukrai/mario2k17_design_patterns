@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "Mario2k17/1.0.0": {
+      "mario2k17/1.0.0": {
         "runtime": {
           "Mario2k17.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "Mario2k17/1.0.0": {
+    "mario2k17/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
