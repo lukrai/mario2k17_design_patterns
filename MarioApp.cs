@@ -37,6 +37,14 @@ namespace Mario2k17
             enemy.showEnemyAttacker();
             enemy.setEnemyAttacker(new BossAdapter(new Boss()));
             enemy.showEnemyAttacker();
+            //Bridge
+            CollectibleController ringController = new RingController(new Ring(5));
+            ringController.FirstMethod(5);
+            ringController.SecondMethod();
+
+            CollectibleController crownController = new CrownController(new Crown(10));
+            crownController.FirstMethod(10);
+            crownController.SecondMethod();
         
         }
     }

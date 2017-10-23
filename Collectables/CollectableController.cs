@@ -13,9 +13,11 @@ namespace Mario2k17
             collectibleUnit = unit;
         }
 
-        public void first()
+        public virtual void FirstMethod(int value)
         {
-            //collectibleUnit.
+            collectibleUnit.setValue(value);
         }
+
+        public abstract void SecondMethod();
     }
 }

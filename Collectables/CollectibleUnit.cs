@@ -7,7 +7,7 @@ namespace Mario2k17
     public abstract class CollectibleUnit
     {
         private int value = 0;
-        private int rotationSpeed = 0;
+        //private int rotationSpeed = 0;
         public CollectibleUnit(int newValue)
         {
             value = newValue;
@@ -19,11 +19,8 @@ namespace Mario2k17
             Console.WriteLine("Unit value: " + value);
         }
 
-        public void setRotationSpeed(int speed)
-        {
-            rotationSpeed = speed;
-            Console.WriteLine("Rotation speed is: " + rotationSpeed);
-        }
+        public abstract void setRotationSpeed();
+
 
 
     }
