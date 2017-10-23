@@ -14,6 +14,8 @@ namespace Mario2k17
         private HitPoints _hitPoints;
         private LevelScore _levelScore;
         private PowerUp _powerUp;
+        GunFactory gunFactory;
+        Gun gun;
 
         public Player(int newHitPoints, int newLevelScore, int newPowerUp)
         {
@@ -49,5 +51,15 @@ namespace Mario2k17
             _levelScore.showAchievement();
         }
 
+        public void getPlayerAGun(string gunName){
+           
+            gunFactory = new GunFactory(gunName);
+            gun = gunFactory.createGun();
+            Console.WriteLine("You’re dealing with " + gun.ShowDescription());
+        }
+
+        public void playerShoots(){
+            Console.WriteLine(gun.Shoot());
+        }
     }
 }

@@ -24,6 +24,15 @@ namespace Mario2k17
             player.playerGotHit();
             player.playerGotPowerUp();
             player.playerGotPowerUp();
+            //Gun factory
+            Console.ReadKey();
+            player.getPlayerAGun("Ak47");
+            player.playerShoots();
+            player.getPlayerAGun("Deagle");
+            player.playerShoots();
+            player.getPlayerAGun("Machine");
+            player.playerShoots();
+
         }
     }
 }

@@ -17,3 +17,13 @@ C:\Users\Ignas\Documents\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario
 C:\Users\Ignas\Documents\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.AssemblyInfo.cs
 C:\Users\Ignas\Documents\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.dll
 C:\Users\Ignas\Documents\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.pdb
+C:\Users\Lukas\Desktop\Objektinis\Kodas\mario2k17_design_patterns\bin\Debug\netcoreapp2.0\Mario2k17.deps.json
+C:\Users\Lukas\Desktop\Objektinis\Kodas\mario2k17_design_patterns\bin\Debug\netcoreapp2.0\Mario2k17.runtimeconfig.json
+C:\Users\Lukas\Desktop\Objektinis\Kodas\mario2k17_design_patterns\bin\Debug\netcoreapp2.0\Mario2k17.runtimeconfig.dev.json
+C:\Users\Lukas\Desktop\Objektinis\Kodas\mario2k17_design_patterns\bin\Debug\netcoreapp2.0\Mario2k17.dll
+C:\Users\Lukas\Desktop\Objektinis\Kodas\mario2k17_design_patterns\bin\Debug\netcoreapp2.0\Mario2k17.pdb
+C:\Users\Lukas\Desktop\Objektinis\Kodas\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.csproj.CoreCompileInputs.cache
+C:\Users\Lukas\Desktop\Objektinis\Kodas\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.AssemblyInfoInputs.cache
+C:\Users\Lukas\Desktop\Objektinis\Kodas\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.AssemblyInfo.cs
+C:\Users\Lukas\Desktop\Objektinis\Kodas\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.dll
+C:\Users\Lukas\Desktop\Objektinis\Kodas\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.pdb
