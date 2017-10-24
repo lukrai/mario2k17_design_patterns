@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mario2k17.Map;
+using System;
 
 namespace Mario2k17
 {
@@ -8,6 +9,19 @@ namespace Mario2k17
         {
             DatabaseConnect database = DatabaseConnect.returnInstance();
             database.updateScore();
+            Console.ReadKey();
+
+            PipeGenerator pipeGenerator = new PipeGenerator();
+            pipeGenerator.generateDongion();
+            pipeGenerator.generateExit();
+            pipeGenerator.generatePrizes();
+            Pipe pipe = null;
+            pipe = pipeGenerator.generatePipe();
+            
+            Console.ReadKey();
+            GenerateGround generateGround = new GenerateGround(pipe);
+            
+            generateGround.GeneretaGround();
             Console.ReadKey();
 
             Enemy enemy;

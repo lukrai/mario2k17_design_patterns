@@ -664,23 +664,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lukas\\.nuget\\packages\\": {},
+    "C:\\Users\\mariu\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lukas\\Desktop\\Objektinis\\Kodas\\mario2k17_design_patterns\\Mario2k17.csproj",
+      "projectUniqueName": "V:\\Univeras\\septintas kursas\\Mario2017\\Mario2k17.csproj",
       "projectName": "Mario2k17",
-      "projectPath": "C:\\Users\\Lukas\\Desktop\\Objektinis\\Kodas\\mario2k17_design_patterns\\Mario2k17.csproj",
-      "packagesPath": "C:\\Users\\Lukas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lukas\\Desktop\\Objektinis\\Kodas\\mario2k17_design_patterns\\obj\\",
+      "projectPath": "V:\\Univeras\\septintas kursas\\Mario2017\\Mario2k17.csproj",
+      "packagesPath": "C:\\Users\\mariu\\.nuget\\packages\\",
+      "outputPath": "V:\\Univeras\\septintas kursas\\Mario2017\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mariu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

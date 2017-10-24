@@ -27,3 +27,14 @@ C:\Users\Lukas\Desktop\Objektinis\Kodas\mario2k17_design_patterns\obj\Debug\netc
 C:\Users\Lukas\Desktop\Objektinis\Kodas\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.AssemblyInfo.cs
 C:\Users\Lukas\Desktop\Objektinis\Kodas\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.dll
 C:\Users\Lukas\Desktop\Objektinis\Kodas\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.pdb
+V:\Univeras\septintas kursas\Mario2017\bin\Debug\netcoreapp2.0\Mario2k17.deps.json
+V:\Univeras\septintas kursas\Mario2017\bin\Debug\netcoreapp2.0\Mario2k17.runtimeconfig.json
+V:\Univeras\septintas kursas\Mario2017\bin\Debug\netcoreapp2.0\Mario2k17.runtimeconfig.dev.json
+V:\Univeras\septintas kursas\Mario2017\bin\Debug\netcoreapp2.0\Mario2k17.dll
+V:\Univeras\septintas kursas\Mario2017\bin\Debug\netcoreapp2.0\Mario2k17.pdb
+V:\Univeras\septintas kursas\Mario2017\obj\Debug\netcoreapp2.0\Mario2k17.csprojResolveAssemblyReference.cache
+V:\Univeras\septintas kursas\Mario2017\obj\Debug\netcoreapp2.0\Mario2k17.csproj.CoreCompileInputs.cache
+V:\Univeras\septintas kursas\Mario2017\obj\Debug\netcoreapp2.0\Mario2k17.AssemblyInfoInputs.cache
+V:\Univeras\septintas kursas\Mario2017\obj\Debug\netcoreapp2.0\Mario2k17.AssemblyInfo.cs
+V:\Univeras\septintas kursas\Mario2017\obj\Debug\netcoreapp2.0\Mario2k17.dll
+V:\Univeras\septintas kursas\Mario2017\obj\Debug\netcoreapp2.0\Mario2k17.pdb
