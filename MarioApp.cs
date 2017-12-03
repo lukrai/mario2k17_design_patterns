@@ -7,8 +7,24 @@ namespace Mario2k17
     {
         static void Main(string[] args)
         {
+            //Singleton
             DatabaseConnect database = DatabaseConnect.returnInstance();
             database.updateScore();
+            Console.ReadKey();
+            //Chain of Resp.
+            DayCycle d1 = new Morning();
+            DayCycle d2 = new Day();
+            DayCycle d3 = new Evening();
+            DayCycle d4 = new Night();
+            d1.setNextChain(d2);
+            d2.setNextChain(d3);
+            d3.setNextChain(d4);
+
+            int[] times = { 11 };
+            foreach (int time in times)
+            {
+                d1.showDayTime(time);
+            }
             Console.ReadKey();
 
             PipeGenerator pipeGenerator = new PipeGenerator();
@@ -23,7 +39,7 @@ namespace Mario2k17
             
             generateGround.GeneretaGround();
             Console.ReadKey();
-
+            //Strategy
             Enemy enemy;
             enemy = new Enemy(new Easy());
             enemy.setEnemy();
@@ -31,13 +47,19 @@ namespace Mario2k17
             enemy.setEnemy();
             Console.ReadKey();
 
-            Player player = new Player(100, 0, 0);
+            Player player = new Player(100, 0, 0, new SmallState());
+            //Facade
             player.playerGotPowerUp();
             player.playerReachedAchievement();
+            //State
+            player.sizeRequest();
+            Console.ReadKey();
+            //Facade
             player.playerGotHit();
             player.playerGotHit();
             player.playerGotPowerUp();
             player.playerGotPowerUp();
+            player.sizeRequest();
             //Gun factory
             Console.ReadKey();
             player.getPlayerAGun("Ak47");
@@ -59,6 +81,15 @@ namespace Mario2k17
             CollectibleController crownController = new CrownController(new Crown(10));
             crownController.FirstMethod(10);
             crownController.SecondMethod();
+            Console.ReadKey();
+
+            //Memento
+            player.HighScoreState = 52;
+            Caretaker c = new Caretaker();
+            c.HighScoreMemento = player.showHighScore();
+            player.HighScoreState = 25;
+            player.saveHighScoreState(c.HighScoreMemento);
+
         
         }
     }

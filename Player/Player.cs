@@ -5,7 +5,7 @@ using System.Text;
 namespace Mario2k17
 {
     //Facade pattern
-    class Player
+    public class Player
     {
         private int hitPoints;
         private int levelScore;
@@ -17,7 +17,11 @@ namespace Mario2k17
         GunFactory gunFactory;
         Gun gun;
 
-        public Player(int newHitPoints, int newLevelScore, int newPowerUp)
+        private IState _state;
+
+        private int highScoreState;
+
+        public Player(int newHitPoints, int newLevelScore, int newPowerUp, IState state)
         {
             hitPoints = newHitPoints;
             levelScore = newLevelScore;
@@ -26,6 +30,8 @@ namespace Mario2k17
             _hitPoints = new HitPoints();
             _levelScore = new LevelScore();
             _powerUp = new PowerUp();
+
+            this._state = state;
         }
 
         public void playerGotHit()
@@ -60,6 +66,41 @@ namespace Mario2k17
 
         public void playerShoots(){
             Console.WriteLine(gun.Shoot());
+        }
+
+        public IState IState
+        {
+            get { return _state; }
+            set
+            {
+                _state = value;
+                Console.WriteLine("Player's size: " + _state.GetType().Name);
+            }
+        }
+
+        public void sizeRequest()
+        {
+            _state.changeSize(this);
+        }
+
+        public int HighScoreState
+        {
+            get { return highScoreState; }
+            set
+            {
+                highScoreState = value;
+                Console.WriteLine("High score: " + highScoreState);
+            }
+        }
+        public HighScoreMemento showHighScore()
+        {
+            return (new HighScoreMemento(highScoreState));
+        }
+
+        public void saveHighScoreState(HighScoreMemento memento)
+        {
+            Console.WriteLine("Restoring high score...");
+            HighScoreState = memento.HighScoreState;
         }
     }
 }

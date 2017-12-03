@@ -38,3 +38,5 @@ V:\Univeras\septintas kursas\Mario2017\obj\Debug\netcoreapp2.0\Mario2k17.Assembl
 V:\Univeras\septintas kursas\Mario2017\obj\Debug\netcoreapp2.0\Mario2k17.AssemblyInfo.cs
 V:\Univeras\septintas kursas\Mario2017\obj\Debug\netcoreapp2.0\Mario2k17.dll
 V:\Univeras\septintas kursas\Mario2017\obj\Debug\netcoreapp2.0\Mario2k17.pdb
+C:\Users\Ignas\Documents\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.csproj.CoreCompileInputs.cache
+C:\Users\Ignas\Documents\mario2k17_design_patterns\obj\Debug\netcoreapp2.0\Mario2k17.AssemblyInfoInputs.cache

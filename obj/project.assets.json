@@ -201,7 +201,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.App/2.0.0": {
-      "sha512": "/mzXF+UtZef+VpzzN88EpvFq5U6z4rj54ZMq/J968H6pcvyLOmcupmTRpJ3CJm8ILoCGh9WI7qpDdiKtuzswrQ==",
+      "sha512": "blYcnIKR4C2hnsijQ6CWc47zqRszdL9mKswzWXawBpsUaKm8Hg7e4pLfvNfeEig6gtmfDRgZK6LdKNNjoebHpA==",
       "type": "package",
       "path": "microsoft.netcore.app/2.0.0",
       "files": [
@@ -664,7 +664,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mariu\\.nuget\\packages\\": {},
+    "C:\\Users\\Ignas\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -673,17 +673,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "V:\\Univeras\\septintas kursas\\Mario2017\\Mario2k17.csproj",
+      "projectUniqueName": "C:\\Users\\Ignas\\Documents\\mario2k17_design_patterns\\Mario2k17.csproj",
       "projectName": "Mario2k17",
-      "projectPath": "V:\\Univeras\\septintas kursas\\Mario2017\\Mario2k17.csproj",
-      "packagesPath": "C:\\Users\\mariu\\.nuget\\packages\\",
-      "outputPath": "V:\\Univeras\\septintas kursas\\Mario2017\\obj\\",
+      "projectPath": "C:\\Users\\Ignas\\Documents\\mario2k17_design_patterns\\Mario2k17.csproj",
+      "packagesPath": "C:\\Users\\Ignas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ignas\\Documents\\mario2k17_design_patterns\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mariu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ignas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -709,7 +709,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
+            "version": "2.0",
             "autoReferenced": true
           }
         },
