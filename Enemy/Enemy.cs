@@ -35,6 +35,12 @@ namespace Mario2k17
             enemyAttacker.Move();
         }
 
+        public void showEnemyDeath()
+        {
+            DeathProxy deathProxy = new DeathProxy();
+            deathProxy.ShowDeath();
+        }
+
 
     }
 }

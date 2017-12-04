@@ -89,6 +89,22 @@ namespace Mario2k17
             c.HighScoreMemento = player.showHighScore();
             player.HighScoreState = 25;
             player.saveHighScoreState(c.HighScoreMemento);
+            
+            //Proxy
+            enemy.showEnemyDeath();
+
+            IDefenceMediator mediator = new DefenceMediator();
+		
+            Building tower1 = new Tower(mediator);
+            Building tower2 = new Tower(mediator);
+            Building tower3 = new Tower(mediator);
+            
+            mediator.AddBuildng(tower1);
+            mediator.AddBuildng(tower2);
+            mediator.AddBuildng(tower3);
+            
+            tower1.SendSignal("Player spoted!");
+            
 
         
         }
