@@ -38,6 +38,4 @@ namespace Mario2k17.Map.Iterator
             }
         }
     }
-
-    
 }
